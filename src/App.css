@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  list-style: none;
+  text-decoration-line: none;
+  
+  
+  
 }
 
 .App-logo {
@@ -28,6 +33,11 @@
   color: #61dafb;
 }
 
+
+.a :active {
+  display: flex;
+  color: red;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +46,87 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+  margin-left: -40px;
+  padding-left: 20px;
+  margin-top: -20px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+a:hover {
+  background-color: rgb(230, 230, 50);
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  padding-right: 20px;
+  
+}
+
+.container {
+  
+  justify-content: space-evenly;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px;
+  grid-gap: 200px;
+  margin-top: 20px;
+}
+.card img{
+  
+  display: flex;
+  width: 400px;
+  height: 230px;
+  
+}
+.card h3{
+  background-color: #d5dfe2;
+  padding-top: 20px;
+  margin-bottom: -60px;
+  margin-top: -1px;
+}
+
+.btn{
+  background-color: #282c34;
+  margin-bottom: -60px;
+  margin-top: -1px;
+  padding: 1px 20px;
+
+}
+
+.but {
+  margin-top: 23px;
+  background-color: black;
+}
+.column {
+  
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.footer {
+  background-color: rgb(190, 190, 28);
+  text-align: center;
+  font-weight: bold;
+  margin-top: 200px;
+  color: white;
+  padding-top: 0px;
+}
+
